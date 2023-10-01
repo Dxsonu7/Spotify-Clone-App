@@ -23,13 +23,14 @@
         app:layout_constraintVertical_bias="0.20" />
 
     <EditText
+        android:background="@color/spotify_black_light"
         android:id="@+id/UserName"
         android:layout_width="280dp"
         android:layout_height="50dp"
         android:textColor="@color/white"
         android:textColorHint="@color/spotify_gray_light"
         android:textCursorDrawable="@null"
-        android:hint="Email or username"
+        android:hint="  Email or username"
         android:ems="18"
         android:inputType="textPersonName"
         android:layout_marginTop="10dp"
@@ -38,14 +39,15 @@
         app:layout_constraintEnd_toEndOf="@id/loginPage" />
 
     <EditText
+        android:background="@color/spotify_black_light"
         android:id="@+id/Password"
         android:layout_width="280dp"
         android:layout_height="50dp"
         android:textColor="@color/white"
         android:textColorHint="@color/spotify_gray_light"
-        android:hint="Password"
+        android:hint="  Password"
         android:textCursorDrawable="@null"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="18dp"
         android:ems="10"
         app:layout_constraintTop_toBottomOf="@id/UserName"
         app:layout_constraintStart_toStartOf="@id/loginPage"
@@ -57,11 +59,21 @@
         android:layout_height="50dp"
         android:backgroundTint="@color/spotify_green"
         android:text="LOG IN"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="18dp"
         app:cornerRadius="0dp"
         app:layout_constraintStart_toStartOf="@id/loginPage"
         app:layout_constraintEnd_toEndOf="@id/loginPage"
         app:layout_constraintTop_toBottomOf="@id/Password" />
+
+    <ImageView
+        android:id="@+id/spotifyLogo"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/spotify_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/loginPage"
+        android:layout_marginBottom="10dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
