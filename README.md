@@ -6,9 +6,10 @@
 
 ## Application Features
 
+- [x] 💯 Responsive UI 
 - [x] 👋 User can enter an email address or username
-- [x] 🗒️ User can enter a password
-- [x] 💯 User can see a LOG IN button 
+- [x] 🐤 User can enter a password
+- [x] 🗒️ User can see a LOG IN button 
 - [x] 🌈 Colors representing the app's brand
 
 ## Screenshot Demo
@@ -17,4 +18,4 @@
 
 ## Notes
 
-This project allowed me to exoplore and polish my skills on building a **responsive UI** with ConstraintLayout, Android Studio, Kotlin, and XML
+This project allowed me to explore and polish my skills on building a **responsive UI** with ConstraintLayout, Android Studio, Kotlin, and XML.
