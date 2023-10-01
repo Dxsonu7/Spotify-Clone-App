@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/loginPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log in to continue."
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.20" />
+
+    <EditText
+        android:id="@+id/UserName"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:hint="Email or username"
+        android:ems="18"
+        android:inputType="textPersonName"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@id/loginPage"
+        app:layout_constraintStart_toStartOf="@id/loginPage"
+        app:layout_constraintEnd_toEndOf="@id/loginPage" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:hint="Password"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        app:layout_constraintTop_toBottomOf="@id/UserName"
+        app:layout_constraintStart_toStartOf="@id/loginPage"
+        app:layout_constraintEnd_toEndOf="@id/loginPage"
+        android:inputType="textPassword" />
+
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/spotify_green"
+        android:text="LOG IN"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="@id/loginPage"
+        app:layout_constraintEnd_toEndOf="@id/loginPage"
+        app:layout_constraintTop_toBottomOf="@id/Password" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
