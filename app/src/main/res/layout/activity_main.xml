@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/spotify_black_dark"
     tools:context=".MainActivity">
 
 
@@ -11,6 +12,7 @@
         android:id="@+id/loginPage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/white"
         android:text="Log in to continue."
         android:textSize="25sp"
         android:textStyle="bold"
@@ -24,6 +26,9 @@
         android:id="@+id/UserName"
         android:layout_width="280dp"
         android:layout_height="50dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/spotify_gray_light"
+        android:textCursorDrawable="@null"
         android:hint="Email or username"
         android:ems="18"
         android:inputType="textPersonName"
@@ -36,7 +41,10 @@
         android:id="@+id/Password"
         android:layout_width="280dp"
         android:layout_height="50dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/spotify_gray_light"
         android:hint="Password"
+        android:textCursorDrawable="@null"
         android:layout_marginTop="10dp"
         android:ems="10"
         app:layout_constraintTop_toBottomOf="@id/UserName"
@@ -50,6 +58,7 @@
         android:backgroundTint="@color/spotify_green"
         android:text="LOG IN"
         android:layout_marginTop="10dp"
+        app:cornerRadius="0dp"
         app:layout_constraintStart_toStartOf="@id/loginPage"
         app:layout_constraintEnd_toEndOf="@id/loginPage"
         app:layout_constraintTop_toBottomOf="@id/Password" />
