@@ -14,7 +14,7 @@
 
 ## Screenshot Demo
 
-<img src='https://github.com/Dxsonu7/Spotify-Clone-App/assets/87947158/b943c1e9-b06f-41b4-968e-e23727d771b8' title='Image Demo' width='300' alt='Image Demo' />
+<img src='https://github.com/Dxsonu7/Spotify-Clone-App/assets/87947158/b943c1e9-b06f-41b4-968e-e23727d771b8' title='Image Demo' width='250' alt='Image Demo' />
 
 ## Notes
 
