@@ -2,7 +2,7 @@
 
 ## Summary
 
-**Spotify-Clone-App** is a login page of Spotify App made using Kotlin, XML, Android Studio.
+**Spotify-Clone-App** is a login page of Spotify App made from scratch using Kotlin, XML, Android Studio.
 
 ## Application Features
 
